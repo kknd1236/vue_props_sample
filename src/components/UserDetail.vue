@@ -8,9 +8,9 @@
 			</v-list-tile>
 			<v-list-tile>
 				<v-list-tile-content>주소</v-list-tile-content>
-				<v-list-tile-content class="align-end">{{
-					address
-				}}</v-list-tile-content>
+				<v-list-tile-content class="align-end">
+					{{ address }}
+				</v-list-tile-content>
 			</v-list-tile>
 			<v-list-tile>
 				<v-list-tile-content>핸드폰</v-list-tile-content>
@@ -18,15 +18,15 @@
 			</v-list-tile>
 			<v-list-tile>
 				<v-list-tile-content>반려견유무</v-list-tile-content>
-				<v-list-tile-content class="align-end">{{
-					hasDogKr
-				}}</v-list-tile-content>
+				<v-list-tile-content class="align-end">
+					{{ hasDogKr }}
+				</v-list-tile-content>
 			</v-list-tile>
 			<v-list-tile>
 				<v-list-tile-content>수정일</v-list-tile-content>
-				<v-list-tile-content class="align-end">{{
-					editedDate
-				}}</v-list-tile-content>
+				<v-list-tile-content class="align-end">
+					{{ editedDate }}
+				</v-list-tile-content>
 			</v-list-tile>
 		</v-list>
 	</div>
